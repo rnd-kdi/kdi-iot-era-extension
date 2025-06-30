@@ -1,0 +1,18 @@
+{
+    "name": "MQTT dev by KDI",
+    "description": "Mục mở rộng hỗ trợ giao tiếp MQTT cho ứng dụng IoT",
+    "libs": [
+        "umqtt_robust.py",
+        "umqtt_simple.py",
+        "mqtt.py"
+    ],
+    "blocks": [
+        "definition.js"
+    ],
+    "toolbox": "toolbox.xml",
+    "languages": {
+        "en": "languages/en.js",
+        "vi": "languages/vi.js"
+    },
+    "poster": "poster.png"
+}

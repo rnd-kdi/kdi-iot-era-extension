@@ -1,0 +1,35 @@
+<xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
+  <category id="mqtt" name="ER-a Platform" colour="#e65722" icon="wifi">
+    <block type="yolobit_mqtt_connect_wifi">
+      <value name="WIFI">
+        <shadow type="text">
+          <field name="TEXT">wifi</field>
+        </shadow>
+      </value>
+      <value name="PASSWORD">
+        <shadow type="text">
+          <field name="TEXT">password</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="yolobit_mqtt_connect_default_servers">
+      <value name="USERNAME">
+        <shadow type="text">
+          <field name="TEXT"></field>
+        </shadow>
+      </value>
+    </block>
+    <block type="yolobit_mqtt_subscribe_config_down"></block>
+    <block type="yolobit_mqtt_publish_value">
+      <value name="VALUE">
+        <shadow type="math_number">
+          <field name="NUM">0</field>
+        </shadow>
+      </value>
+    </block>
+        <!-- Blocks mới cho virtual pin subscribe -->
+    <!-- <block type="yolobit_mqtt_subscribe_virtual_pin"></block> -->
+    <block type="yolobit_mqtt_read_virtual_pin_value"></block>
+    <!-- <block type="yolobit_mqtt_read_virtual_pin_full"></block> -->
+  </category>
+</xml>
